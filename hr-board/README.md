@@ -9,6 +9,9 @@ In the project directory, you can run:
 
 ### `yarn start`
 
+The login is john.doe@example.com and password: example. If you cannot log in,
+register a new user
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
