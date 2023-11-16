@@ -16,7 +16,6 @@ Initialize the database by running the command from the backend folder (see the 
 Launch the backend with the command:
 
 `yarn start:dev`
- 
 
 ## Documentation API
 
@@ -41,9 +40,3 @@ Note - this command will delete the data you have modified in the database!
 ## Communication with API
 
 For authorization on the Backend side, you should attach a Bearer Token to the Authorization header of each query. Example:
-
-```
-Authorization: Bearer eyJhbGc3OiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RAZXhhbXBsZS5jb20iLCJzd1IiOjE2NzQxMjcvMzcxMzEsImZpcnN0bmFtZSI6InRlc3QiLCJsYXN0bmFtZSI6InRlc3QiLCJpYXQiOjE2NzQxNDE4ODcsImV4cCI6MTY3NDE0aTQ4N30.SOU2GqpndnREZsrSiEbx7_cwcqXkA1jG5jkvDLX5emw
-```
-
-Where the token following the word Bearer is the token returned by the login endpoint.
