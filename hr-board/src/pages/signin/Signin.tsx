@@ -88,6 +88,9 @@ export const Signin = () => {
     <>
       <h1 className="mb-6 mt-2 text-5xl sm:text-6xl">Sign In</h1>
       <SignInForm />
+      <div>login:john.doe@example.com</div>
+      <div>password:example</div>
+      <br />
       <p>
         {`Don't have an account?`}
         {'   '}
