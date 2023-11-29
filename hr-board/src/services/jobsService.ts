@@ -9,6 +9,7 @@ type PublicJobsResponse = {
 
 const getAllPublic = async () => {
   try {
+    alert(JSON.stringify(apiClient));
     const response = await apiClient.get<PublicJobsResponse>('/jobs/public');
     return response.data;
   } catch (error) {

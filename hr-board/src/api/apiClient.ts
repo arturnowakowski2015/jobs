@@ -3,7 +3,7 @@ import createAuthRefreshInterceptor from 'axios-auth-refresh';
 import type { AxiosAuthRefreshRequestConfig } from 'axios-auth-refresh';
 
 export const apiClient = axios.create({
-  baseURL: process.env.REACT_APP_API_URL,
+  baseURL: 'http://localhost:9595',
   headers: {
     'Content-Type': 'application/json',
   },
